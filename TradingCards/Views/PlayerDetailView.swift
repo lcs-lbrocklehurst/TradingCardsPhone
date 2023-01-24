@@ -10,26 +10,27 @@ import SwiftUI
 struct PlayerDetailView: View {
     var body: some View {
         
-        HStack {
-            
-            VStack {
-                Text("Cole Caufield")
-                    .bold()
-                    .font(Font.custom("Helvetica Neue", size: 40))
-                Image("Caufield")
-                    .resizable()
-                    .scaledToFit()
+        VStack {
+            Text("Cole Caufield")
+                .bold()
+                .font(Font.custom("Helvetica Neue", size: 40))
+            Image("Caufield")
+                .resizable()
+                .scaledToFit()
+        
+            HStack {
+                Text("career Stats")
                 
                 Spacer()
-                    
             }
             
             Spacer()
-
+            
         }
-        .padding()
-     }
+    }
+    
 }
+
 
 struct PlayerDetailView_Previews: PreviewProvider {
     static var previews: some View {
