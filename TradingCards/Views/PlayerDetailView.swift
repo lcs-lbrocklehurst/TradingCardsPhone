@@ -20,11 +20,41 @@ struct PlayerDetailView: View {
         
             HStack {
                 Text("career Stats")
+                    .bold()
+                
+                
                 
                 Spacer()
             }
+            HStack {
+                Text("GP:")
+                
+                
+                Spacer()
+                
+                Text("G:")
+                
+                
+                Spacer()
+                
+                Text("A:")
+                
+                Spacer()
+                
+                Text("PTS:")
+                
+                Spacer()
+                
+                Text("PIM:")
+                
+                Spacer()
+                
+                
+            }
             
             Spacer()
+            
+           
             
         }
     }
