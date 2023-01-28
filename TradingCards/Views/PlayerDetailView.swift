@@ -45,24 +45,24 @@ struct PlayerDetailView: View {
                 Text("")
             }
             HStack {
-                Text("GP:")
+                Text("GP: 123")
                 
                 
                 Spacer()
                 
-                Text("G:")
+                Text("G: 53")
                 
                 Spacer()
                 
-                Text("A:")
+                Text("A: 31")
                 
                 Spacer()
                 
-                Text("PTS:")
+                Text("PTS: 84")
                 
                 Spacer()
                 
-                Text("PIM:")
+                Text("PIM: 14")
                 
                 Spacer()
                 
@@ -71,12 +71,15 @@ struct PlayerDetailView: View {
                 
                 
             }
+            HStack {
+                Text("")
+            }
            
                 
                 
                 HStack {
                     
-                    Text("")
+                    Text("A game-breaking goal scorer that, despite his diminutive frame, thrives under pressure and is difficult to contain. Defensively, he’s uncomfortable having the puck in his own end for long and he’ll make the extra effort to pressure around the blue line and take away cross-ice options. Upon procuring puck possession, he’ll be the first to explode up ice in-transition. The hallmark of his game is his exceptional goal-scoring ability.")
                     
                     
                     
