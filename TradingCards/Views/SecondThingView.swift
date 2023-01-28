@@ -1,20 +1,19 @@
 //
-//  PlayerDetailView.swift
+//  SecondThingView.swift
 //  TradingCards
 //
-//  Created by Lewis Brocklehurst on 2023-01-24.
+//  Created by Lewis Brocklehurst on 2023-01-28.
 //
 
 import SwiftUI
 
-struct PlayerDetailView: View {
+struct SecondThingView: View {
     var body: some View {
-        
         VStack {
-            Text("Cole Caufield")
+            Text("Arber Xhekaj")
                 .bold()
                 .font(Font.custom("Helvetica Neue", size: 40))
-            Image("Caufield")
+            Image("Xhekaj")
                 .resizable()
                 .scaledToFit()
                 .padding()
@@ -23,15 +22,15 @@ struct PlayerDetailView: View {
             Group {
                 
                 HStack{
-                    Text("height: 5'7")
+                    Text("height: 6'4")
                     
-                    Text("weight: 162 ")
+                    Text("weight: 238 ")
                     
-                    Text("shoots: right ")
+                    Text("shoots: left ")
                     
                     Spacer()
                     
-                    Text("Born: january 2, 2001, Mosinee, Wisconsin")
+                    Text("Born: january 30, 2001, Hamilton, Ont")
                     
                     Spacer()
                 }
@@ -49,24 +48,24 @@ struct PlayerDetailView: View {
                     Text("")
                 }
                 HStack {
-                    Text("GP: 123")
+                    Text("GP: 47")
                     
                     
                     Spacer()
                     
-                    Text("G: 53")
+                    Text("G: 5")
                     
                     Spacer()
                     
-                    Text("A: 31")
+                    Text("A: 8")
                     
                     Spacer()
                     
-                    Text("PTS: 84")
+                    Text("PTS: 13")
                     
                     Spacer()
                     
-                    Text("PIM: 14")
+                    Text("PIM: 92")
                     
                     Spacer()
                     
@@ -86,7 +85,7 @@ struct PlayerDetailView: View {
             
             HStack {
                 
-                Text("A game-breaking goal scorer that, despite his diminutive frame, thrives under pressure and is difficult to contain. Defensively, he’s uncomfortable having the puck in his own end for long and he’ll make the extra effort to pressure around the blue line and take away cross-ice options. Upon procuring puck possession, he’ll be the first to explode up ice in-transition. The hallmark of his game is his exceptional goal-scoring ability.")
+                Text("The undrafted defenseman earned an NHL job by laying out punishing checks in his own zone and standing up for teammates, but he is more than just a physical blueliner; he is showing he can also contribute offensively because of his skating ability and poise with the puck. He will have to avoid being baited into penalties by opponents who hope to use his toughness against him.")
                 
                 
                 
@@ -103,11 +102,8 @@ struct PlayerDetailView: View {
     
 }
 
-
-struct PlayerDetailView_Previews: PreviewProvider {
+struct SecondThingView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerDetailView()
-            
+        SecondThingView()
     }
 }
-

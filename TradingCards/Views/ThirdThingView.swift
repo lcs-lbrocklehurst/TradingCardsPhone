@@ -1,20 +1,20 @@
 //
-//  PlayerDetailView.swift
+//  ThirdThingView.swift
 //  TradingCards
 //
-//  Created by Lewis Brocklehurst on 2023-01-24.
+//  Created by Lewis Brocklehurst on 2023-01-28.
 //
 
 import SwiftUI
 
-struct PlayerDetailView: View {
+struct ThirdThingView: View {
     var body: some View {
         
         VStack {
-            Text("Cole Caufield")
+            Text("Juraj Slafkovsky")
                 .bold()
                 .font(Font.custom("Helvetica Neue", size: 40))
-            Image("Caufield")
+            Image("Slafkovsky")
                 .resizable()
                 .scaledToFit()
                 .padding()
@@ -23,15 +23,15 @@ struct PlayerDetailView: View {
             Group {
                 
                 HStack{
-                    Text("height: 5'7")
+                    Text("height: 6'4")
                     
-                    Text("weight: 162 ")
+                    Text("weight: 238 ")
                     
-                    Text("shoots: right ")
+                    Text("shoots: left ")
                     
                     Spacer()
                     
-                    Text("Born: january 2, 2001, Mosinee, Wisconsin")
+                    Text("Born: March 30, 2004, Kosice, Slovakia")
                     
                     Spacer()
                 }
@@ -49,24 +49,24 @@ struct PlayerDetailView: View {
                     Text("")
                 }
                 HStack {
-                    Text("GP: 123")
+                    Text("GP: 39")
                     
                     
                     Spacer()
                     
-                    Text("G: 53")
+                    Text("G: 4")
                     
                     Spacer()
                     
-                    Text("A: 31")
+                    Text("A: 6")
                     
                     Spacer()
                     
-                    Text("PTS: 84")
+                    Text("PTS: 10")
                     
                     Spacer()
                     
-                    Text("PIM: 14")
+                    Text("PIM: 33")
                     
                     Spacer()
                     
@@ -86,7 +86,7 @@ struct PlayerDetailView: View {
             
             HStack {
                 
-                Text("A game-breaking goal scorer that, despite his diminutive frame, thrives under pressure and is difficult to contain. Defensively, he’s uncomfortable having the puck in his own end for long and he’ll make the extra effort to pressure around the blue line and take away cross-ice options. Upon procuring puck possession, he’ll be the first to explode up ice in-transition. The hallmark of his game is his exceptional goal-scoring ability.")
+                Text("The MVP of the 2022 Beijing Olympics helped Slovakia win the bronze medal before being taken No. 1 overall in the 2022 NHL Draft. He has all the positives a team would want from a big forward: the size to power his way past opponents, as well as the speed and skill to create offense. He can set up or finish plays, and his compete level should get better as he matures.")
                 
                 
                 
@@ -103,11 +103,8 @@ struct PlayerDetailView: View {
     
 }
 
-
-struct PlayerDetailView_Previews: PreviewProvider {
+struct ThirdThingView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerDetailView()
-            
+        ThirdThingView()
     }
 }
-
