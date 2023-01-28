@@ -17,6 +17,7 @@ struct PlayerDetailView: View {
             Image("Caufield")
                 .resizable()
                 .scaledToFit()
+                .padding()
             
             HStack{
                 Text("height: 5'7")
@@ -100,6 +101,7 @@ struct PlayerDetailView: View {
     struct PlayerDetailView_Previews: PreviewProvider {
         static var previews: some View {
             PlayerDetailView()
+                .background(Color.red)
         }
     }
 
