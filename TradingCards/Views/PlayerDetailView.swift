@@ -17,7 +17,21 @@ struct PlayerDetailView: View {
             Image("Caufield")
                 .resizable()
                 .scaledToFit()
-        
+            
+            HStack{
+                Text("height: 5'7")
+                
+                Text("weight: 162 ")
+                
+                Text("shoots: right ")
+                
+                Spacer()
+                
+                Text("Born: january 2, 2001, Mosinee, Wisconsin")
+                
+                Spacer()
+            }
+            
             HStack {
                 Text("career Stats")
                     .bold()
@@ -26,6 +40,10 @@ struct PlayerDetailView: View {
                 
                 Spacer()
             }
+            
+            HStack {
+                Text("")
+            }
             HStack {
                 Text("GP:")
                 
@@ -33,7 +51,6 @@ struct PlayerDetailView: View {
                 Spacer()
                 
                 Text("G:")
-                
                 
                 Spacer()
                 
@@ -50,20 +67,36 @@ struct PlayerDetailView: View {
                 Spacer()
                 
                 
+                
+                
+                
             }
-            
-            Spacer()
-            
            
-            
+                
+                
+                HStack {
+                    
+                    Text("")
+                    
+                    
+                    
+                    
+                    Spacer()
+                }
+                
+                Spacer()
+                
+                
+                
+            }
         }
+        
     }
     
-}
-
-
-struct PlayerDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        PlayerDetailView()
+    
+    struct PlayerDetailView_Previews: PreviewProvider {
+        static var previews: some View {
+            PlayerDetailView()
+        }
     }
-}
+
