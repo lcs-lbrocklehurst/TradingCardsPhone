@@ -9,105 +9,132 @@ import SwiftUI
 
 struct PlayerDetailView: View {
     var body: some View {
-        
-        VStack {
-            Text("Cole Caufield")
-                .bold()
-                .font(Font.custom("Helvetica Neue", size: 40))
-            Image("Caufield")
-                .resizable()
-                .scaledToFit()
-                .padding()
+        ZStack {
+                RoundedRectangle(cornerRadius: 50)
+                .foregroundColor(.red)
+                .frame(height: 750)
+                .frame(width: 380)
             
-            
-            Group {
+            VStack {
                 
-                HStack{
-                    Text("height: 5'7")
+                Text("Cole Caufield")
+                    .bold()
+                    .font(Font.custom("Helvetica Neue", size: 40))
+                Image("Caufield")
+                    .resizable()
+                    .scaledToFit()
+                
+                
+                Group {
                     
-                    Text("weight: 162 ")
+                    HStack{
+                        Text("height: 5'7")
+    
+                            .bold()
+                        
+                        Spacer()
+                        
+                        Text("weight: 162 ")
+                            
+                            .bold()
+                        
+                        Spacer()
+                        
+                        Text("shoots: right ")
+                        
+                            .bold()
+                        
+                        Spacer()
+                        
+                        Text("Born: january 2, 2001, Mosinee, Wisconsin")
+                        
+                            .bold()
+                        
+                        Spacer()
+                    }
                     
-                    Text("shoots: right ")
+                    HStack {
+                        Text("Career Stats")
+                            .bold()
+                            
+                        
+                        
+                        
+                        Spacer()
+                    }
                     
-                    Spacer()
+                    HStack {
+                        Text("")
+                    }
+                    HStack {
+                        Text("GP: 123")
+                        
+                            .bold()
+                        
+                        Spacer()
+                        
+                        Text("G: 53")
+                        
+                            .bold()
+                        
+                        Spacer()
+                        
+                        Text("A: 31")
+                        
+                            .bold()
+                        
+                        Spacer()
+                        
+                        Text("PTS: 84")
+                        
+                            .bold()
+                        
+                        Spacer()
+                        
+                        Text("PIM: 14")
+                        
+                            .bold()
+                        
+                        Spacer()
+                        
+                        
+                        
+                        
+                        
+                    }
+                    HStack {
+                        Text("")
+                    }
                     
-                    Text("Born: january 2, 2001, Mosinee, Wisconsin")
                     
-                    Spacer()
                 }
                 
+                
                 HStack {
-                    Text("career Stats")
+                    
+                    Text("A game-breaking goal scorer that, despite his diminutive frame, thrives under pressure and is difficult to contain. Defensively, he’s uncomfortable having the puck in his own end for long and he’ll make the extra effort to pressure around the blue line and take away cross-ice options. Upon procuring puck possession, he’ll be the first to explode up ice in-transition. The hallmark of his game is his exceptional goal-scoring ability.")
+                    
                         .bold()
                     
-                    
-                    
                     Spacer()
                 }
-                
-                HStack {
-                    Text("")
-                }
-                HStack {
-                    Text("GP: 123")
-                    
-                    
-                    Spacer()
-                    
-                    Text("G: 53")
-                    
-                    Spacer()
-                    
-                    Text("A: 31")
-                    
-                    Spacer()
-                    
-                    Text("PTS: 84")
-                    
-                    Spacer()
-                    
-                    Text("PIM: 14")
-                    
-                    Spacer()
-                    
-                    
-                    
-                    
-                    
-                }
-                HStack {
-                    Text("")
-                }
-
-
-            }
-            
-            
-            
-            HStack {
-                
-                Text("A game-breaking goal scorer that, despite his diminutive frame, thrives under pressure and is difficult to contain. Defensively, he’s uncomfortable having the puck in his own end for long and he’ll make the extra effort to pressure around the blue line and take away cross-ice options. Upon procuring puck possession, he’ll be the first to explode up ice in-transition. The hallmark of his game is his exceptional goal-scoring ability.")
-                
-                
-                
                 
                 Spacer()
+                
             }
-            
-            Spacer()
-            
+            .padding()
             
             
         }
+        
     }
-    
 }
-
 
 struct PlayerDetailView_Previews: PreviewProvider {
     static var previews: some View {
         PlayerDetailView()
-            
+        
     }
 }
+
 

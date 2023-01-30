@@ -24,7 +24,11 @@ struct SecondThingView: View {
                 HStack{
                     Text("height: 6'4")
                     
+                    Spacer()
+                    
                     Text("weight: 238 ")
+                    
+                    Spacer()
                     
                     Text("shoots: left ")
                     
@@ -98,6 +102,7 @@ struct SecondThingView: View {
             
             
         }
+        .padding()
     }
     
 }

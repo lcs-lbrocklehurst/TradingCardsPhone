@@ -25,7 +25,11 @@ struct FifthThingView: View {
                 HStack{
                     Text("height: 5'11")
                     
+                    Spacer()
+                    
                     Text("weight: 208 ")
+                    
+                    Spacer()
                     
                     Text("shoots: right ")
                     
