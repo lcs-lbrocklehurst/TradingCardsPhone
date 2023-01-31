@@ -35,7 +35,7 @@ struct FifthThingView: View {
                     
                     Spacer()
                     
-                    Text("Born: August 10, 1999, London, Ont")
+                    Text("Birthdate: 08/10/1999")
                     
                     Spacer()
                 }
