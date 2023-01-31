@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct PlayerDetailView: View {
+    //Mark: Stored property
+    //information to show on the card
+    let cardToShow: Card
+    
+    // Mark: Computed property
     var body: some View {
         ZStack {
                 RoundedRectangle(cornerRadius: 50)
@@ -18,11 +23,11 @@ struct PlayerDetailView: View {
             VStack {
                 
                 //name
-                Text("Cole Caufield")
+                Text(cardToShow.name)
                     .bold()
                     .font(Font.custom("Helvetica Neue", size: 40))
                 //image
-                Image("Caufield")
+                Image(cardToShow.image)
                     .resizable()
                     .scaledToFit()
                 
@@ -31,28 +36,28 @@ struct PlayerDetailView: View {
                     
                     HStack{
                         //height
-                        Text("height: 5'7")
+                        Text("height: \(cardToShow.height)")
     
                             .bold()
                         
                         Spacer()
                         
                         //weight
-                        Text("weight: 162 ")
+                        Text("weight: \(cardToShow.weight) ")
                             
                             .bold()
                         
                         Spacer()
                         
                         //shoots
-                        Text("shoots: right ")
+                        Text("shoots: \(cardToShow.shoots)")
                         
                             .bold()
                         
                         Spacer()
                         
                         //birthdate
-                        Text("birthdate: 1/2/2001 ")
+                        Text("birthdate: \(cardToShow.birthdate) ")
                         
                             .bold()
                         
@@ -75,31 +80,31 @@ struct PlayerDetailView: View {
                     }
                     HStack {
                         //Games played
-                        Text("GP: 123")
+                        Text("GP: \(cardToShow.gamesPlayed)")
                         
                             .bold()
                         
                         Spacer()
                         //goals
-                        Text("G: 53")
+                        Text("G: \(cardToShow.goals)")
                         
                             .bold()
                         
                         Spacer()
                         //assists
-                        Text("A: 31")
+                        Text("A: \(cardToShow.assists)")
                         
                             .bold()
                         
                         Spacer()
                         //points
-                        Text("PTS: 84")
+                        Text("PTS: \(cardToShow.points)")
                         
                             .bold()
                         
                         Spacer()
                         //penaltyMinutes
-                        Text("PIM: 14")
+                        Text("PIM: \(cardToShow.penaltyMinutes)")
                         
                             .bold()
                         
@@ -121,7 +126,7 @@ struct PlayerDetailView: View {
                 HStack {
                     
                     //description
-                    Text("A game-breaking goal scorer that, despite his diminutive frame, thrives under pressure and is difficult to contain. Defensively, he’s uncomfortable having the puck in his own end for long and he’ll make the extra effort to pressure around the blue line and take away cross-ice options. Upon procuring puck possession, he’ll be the first to explode up ice in-transition. The hallmark of his game is his exceptional goal-scoring ability.")
+                    Text("\(cardToShow.description)")
                     
                         .bold()
                     
@@ -142,7 +147,7 @@ struct PlayerDetailView: View {
 struct PlayerDetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            PlayerDetailView()
+            PlayerDetailView(cardToShow: ArberXhekaj)
         }
         
     }
