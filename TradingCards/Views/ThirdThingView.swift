@@ -31,7 +31,7 @@ struct ThirdThingView: View {
                     
                     Spacer()
                     
-                    Text("Born: March 30, 2004, Kosice, Slovakia")
+                    Text("Birthdate: 3/30/2004")
                     
                     Spacer()
                 }
