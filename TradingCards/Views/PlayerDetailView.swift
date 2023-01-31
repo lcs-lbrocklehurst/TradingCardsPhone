@@ -58,6 +58,7 @@ struct PlayerDetailView: View {
                         
                         Spacer()
                     }
+                   
                     
                     HStack {
                         Text("Career Stats")

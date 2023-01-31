@@ -34,7 +34,7 @@ struct SecondThingView: View {
                     
                     Spacer()
                     
-                    Text("Born: january 30, 2001, Hamilton, Ont")
+                    Text("Birthdate: 1/30/2001")
                     
                     Spacer()
                 }
