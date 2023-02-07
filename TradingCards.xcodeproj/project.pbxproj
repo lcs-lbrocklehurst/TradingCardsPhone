@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		479A160E298573B70078C530 /* SecondThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A160D298573B70078C530 /* SecondThingView.swift */; };
-		479A16102985765B0078C530 /* ThirdThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A160F2985765B0078C530 /* ThirdThingView.swift */; };
-		479A1612298578D90078C530 /* FourthThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A1611298578D90078C530 /* FourthThingView.swift */; };
-		479A161429857AD70078C530 /* FifthThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A161329857AD70078C530 /* FifthThingView.swift */; };
 		479A1617298813FD0078C530 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A1616298813FD0078C530 /* Card.swift */; };
+		479A163B2992B1490078C530 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A163A2992B1490078C530 /* ListView.swift */; };
 		47CA4ED029803DCD00792E59 /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CA4ECF29803DCD00792E59 /* TradingCardsApp.swift */; };
 		47CA4ED429803DCF00792E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CA4ED329803DCF00792E59 /* Assets.xcassets */; };
 		47CA4ED729803DCF00792E59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CA4ED629803DCF00792E59 /* Preview Assets.xcassets */; };
@@ -19,11 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		479A160D298573B70078C530 /* SecondThingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondThingView.swift; sourceTree = "<group>"; };
-		479A160F2985765B0078C530 /* ThirdThingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdThingView.swift; sourceTree = "<group>"; };
-		479A1611298578D90078C530 /* FourthThingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthThingView.swift; sourceTree = "<group>"; };
-		479A161329857AD70078C530 /* FifthThingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthThingView.swift; sourceTree = "<group>"; };
 		479A1616298813FD0078C530 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		479A163A2992B1490078C530 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		47CA4ECC29803DCD00792E59 /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CA4ECF29803DCD00792E59 /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
 		47CA4ED329803DCF00792E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,10 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				47CA4EDE29803E8F00792E59 /* PlayerDetailView.swift */,
-				479A160D298573B70078C530 /* SecondThingView.swift */,
-				479A160F2985765B0078C530 /* ThirdThingView.swift */,
-				479A1611298578D90078C530 /* FourthThingView.swift */,
-				479A161329857AD70078C530 /* FifthThingView.swift */,
+				479A163A2992B1490078C530 /* ListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,13 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479A163B2992B1490078C530 /* ListView.swift in Sources */,
 				47CA4EDF29803E8F00792E59 /* PlayerDetailView.swift in Sources */,
-				479A160E298573B70078C530 /* SecondThingView.swift in Sources */,
 				479A1617298813FD0078C530 /* Card.swift in Sources */,
 				47CA4ED029803DCD00792E59 /* TradingCardsApp.swift in Sources */,
-				479A161429857AD70078C530 /* FifthThingView.swift in Sources */,
-				479A16102985765B0078C530 /* ThirdThingView.swift in Sources */,
-				479A1612298578D90078C530 /* FourthThingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

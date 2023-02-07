@@ -8,10 +8,15 @@
 import SwiftUI
 
 @main
+
 struct TradingCardsApp: App {
     var body: some Scene {
         WindowGroup {
-            PlayerDetailView(cardToShow: JurajSlafkovsky)
+            NavigationView{
+                
+                ListView()
+            }
+          
         }
     }
 }
